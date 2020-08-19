@@ -59,8 +59,8 @@ function calculations() {
     //dob,doa,dor
     document.write("D.O.B : ");
     let boxDob = document.createElement("input");
-    boxDob.type = "numbers";
-    boxDob.valueAsDate = dob;
+    boxDob.type = "text";
+    boxDob.value = dob;
     let bDob = document.getElementsByTagName("body")[0];
     bDob.appendChild(boxDob);
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
@@ -68,8 +68,8 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write("D.O.A : ");
     let boxDoa = document.createElement("input");
-    boxDoa.type = "numbers";
-    boxDoa.valueAsDate = doa;
+    boxDoa.type = "text";
+    boxDoa.value = doa;
     let bDoa = document.getElementsByTagName("body")[0];
     bDoa.appendChild(boxDoa);
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
@@ -77,8 +77,8 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write("D.O.R : ");
     let boxDor = document.createElement("input");
-    boxDor.type = "numbers";
-    boxDor.valueAsDate = dor;
+    boxDor.type = "text";
+    boxDor.value = dor;
     let bDor = document.getElementsByTagName("body")[0];
     bDor.appendChild(boxDor);
     document.write("<br />");
