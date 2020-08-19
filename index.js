@@ -269,7 +269,7 @@ function calculations() {
     let bRelation = document.getElementsByTagName("body")[0];
     bRelation.appendChild(boxRelation);
     //dob of benificiary
-    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    /*document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write("D.O.B Benificiary : ");
@@ -277,7 +277,7 @@ function calculations() {
     boxDobBenificiary.type = "text";
     boxDobBenificiary.value = dobBenificairy;
     let bDobBenificiary = document.getElementsByTagName("body")[0];
-    bDobBenificiary.appendChild(boxDobBenificiary);
+    bDobBenificiary.appendChild(boxDobBenificiary);*/
     //recovery/* calculate only total recover*/ rest in first page 
     document.write("<br />");
     document.write("<br />");
