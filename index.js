@@ -29,6 +29,11 @@ function calculations() {
     let BankAccount = document.querySelector("input[name=bankAccount]").value;
     let fma = document.querySelector("select[name=fma]").value;
     let ifsc = document.querySelector("input[name=ifscCode]").value;
+    const dob = document.querySelector("input[name=dob]").value;
+    const doa = document.querySelector("input[name=doa]").value;
+    const dor = document.querySelector("input[name=dor]").value;
+    const dobBenificairy = document.querySelector("input[name=benificiaryDob]").value;
+
     if ((apl + hapl) > 300) {
         alert("the sum of APL and HAPL is grater than 300");
         return;
@@ -39,11 +44,8 @@ function calculations() {
     let boxName = document.createElement("input");
     boxName.type = "text";
     boxName.value = name;
-    /*boxName.name = "name1";
-    document.querySelector("input[name=name1]").readOnly = true;*/
     let bName = document.getElementsByTagName("body")[0];
     bName.appendChild(boxName);
-    //print designation
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write("Designation : ");
@@ -52,6 +54,33 @@ function calculations() {
     boxDesig.value = desig;
     let bDesig = document.getElementsByTagName("body")[0];
     bDesig.appendChild(boxDesig);
+    document.write("<br />");
+    document.write("<br />");
+    //dob,doa,dor
+    document.write("D.O.B : ");
+    let boxDob = document.createElement("input");
+    boxDob.type = "text";
+    boxDob.valueAsDate = dob;
+    let bDob = document.getElementsByTagName("body")[0];
+    bDob.appendChild(boxDob);
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write("D.O.A : ");
+    let boxDoa = document.createElement("input");
+    boxDoa.type = "text";
+    boxDoa.valueAsDate = doa;
+    let bDoa = document.getElementsByTagName("body")[0];
+    bDoa.appendChild(boxDoa);
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write("D.O.R : ");
+    let boxDor = document.createElement("input");
+    boxDor.type = "text";
+    boxDor.valueAsDate = dor;
+    let bDor = document.getElementsByTagName("body")[0];
+    bDor.appendChild(boxDor);
     document.write("<br />");
     //printing PF no.
     document.write("<br />");
@@ -128,6 +157,8 @@ function calculations() {
         let b3 = document.getElementsByTagName("body")[0];
         b3.appendChild(box3);
         //pen
+        document.write("<br />");
+        document.write("<br />");
         document.write("Pension : ");
         let box4 = document.createElement("input");
         box4.type = "number";
@@ -237,6 +268,16 @@ function calculations() {
     boxRelation.value = relation;
     let bRelation = document.getElementsByTagName("body")[0];
     bRelation.appendChild(boxRelation);
+    //dob of benificiary
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write("D.O.B Benificiary : ");
+    let boxDobBenificiary = document.createElement("input");
+    boxDobBenificiary.type = "text";
+    boxDobBenificiary.valueAsDate = dobBenificairy;
+    let bDobBenificiary = document.getElementsByTagName("body")[0];
+    bDobBenificiary.appendChild(boxDobBenificiary);
     //recovery/* calculate only total recover*/ rest in first page 
     document.write("<br />");
     document.write("<br />");
