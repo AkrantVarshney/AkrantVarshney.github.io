@@ -272,12 +272,7 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
-    document.write("D.O.B Benificiary : ");
-    let boxDobBenificiary = document.createElement("input");
-    boxDobBenificiary.type = "text";
-    boxDobBenificiary.value = dobBenificairy;
-    let bDobBenificiary = document.getElementsByTagName("body")[0];
-    bDobBenificiary.appendChild(boxDobBenificiary);
+
     //recovery/* calculate only total recover*/ rest in first page 
     document.write("<br />");
     document.write("<br />");
