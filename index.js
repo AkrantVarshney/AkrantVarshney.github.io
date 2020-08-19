@@ -204,8 +204,9 @@ function calculations() {
         box3.value = dcrg;
         let b4 = document.getElementsByTagName("body")[0];
         b4.appendChild(box3);
-        document.write("<br />")
-            //pension
+        document.write("<br />");
+        document.write("<br />");
+        //pension
         document.write("Pension : ");
         let box4 = document.createElement("input");
         box4.type = "number";
@@ -236,6 +237,9 @@ function calculations() {
     boxTotalLeave.value = (apl + hapl);
     let b7 = document.getElementsByTagName("body")[0];
     b7.appendChild(boxTotalLeave);
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     if ((apl + hapl) <= 300) {
         rDay += apl + hapl;
         leaveSal += ((basic + da) * rDay) / 30;
