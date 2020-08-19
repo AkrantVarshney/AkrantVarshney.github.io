@@ -63,7 +63,6 @@ function calculations() {
     boxDob.value = dob;
     let bDob = document.getElementsByTagName("body")[0];
     bDob.appendChild(boxDob);
-
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
@@ -276,7 +275,7 @@ function calculations() {
     document.write("D.O.B Benificiary : ");
     let boxDobBenificiary = document.createElement("input");
     boxDobBenificiary.type = "text";
-    boxDobBenificiary.valueAsDate = dobBenificairy;
+    boxDobBenificiary.value = dobBenificairy;
     let bDobBenificiary = document.getElementsByTagName("body")[0];
     bDobBenificiary.appendChild(boxDobBenificiary);
     //recovery/* calculate only total recover*/ rest in first page 
@@ -321,7 +320,7 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
-    document.write("Recovery : ");
+    document.write("Total Recovery : ");
     let boxRecoveryTotal = document.createElement("input");
     boxRecoveryTotal.type = "number";
     boxRecoveryTotal.value = totalRecovery;
