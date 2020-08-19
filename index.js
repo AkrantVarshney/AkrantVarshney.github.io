@@ -57,12 +57,6 @@ function calculations() {
     document.write("<br />");
     document.write("<br />");
     //dob,doa,dor
-    document.write("D.O.B : ");
-    let boxDob = document.createElement("input");
-    boxDob.type = "text";
-    boxDob.value = dob;
-    let bDob = document.getElementsByTagName("body")[0];
-    bDob.appendChild(boxDob);
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
