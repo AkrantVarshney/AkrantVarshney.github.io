@@ -56,7 +56,7 @@ function calculations() {
     //printing PF no.
     document.write("<br />");
     //document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
-    document.write("PF Number is : ");
+    document.write("PF Number  : ");
     let boxPfno = document.createElement("input");
     boxPfno.type = "number";
     boxPfno.value = pfNo;
@@ -65,7 +65,7 @@ function calculations() {
     document.write("<br />");
     //printing qs
     document.write("<br />");
-    document.write("Q.S. is : ");
+    document.write("Q.S.  : ");
     let boxQs = document.createElement("input");
     boxQs.type = "number";
     boxQs.value = qs;
@@ -76,7 +76,7 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;');
-    document.write("G.P. is : ");
+    document.write("G.P.  : ");
     let boxGp = document.createElement("input");
     boxGp.type = "number";
     boxGp.value = gp;
@@ -85,7 +85,7 @@ function calculations() {
     document.write("<br />");
     //printing basic 
     document.write("<br />");
-    document.write("Basic is : ");
+    document.write("Basic  : ");
     let boxBasic = document.createElement("input");
     boxBasic.type = "number";
     boxBasic.value = basic;
