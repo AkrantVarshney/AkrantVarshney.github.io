@@ -4,7 +4,7 @@ function calculations() {
     let pfNo = parseInt(document.querySelector("input[name=pfNo]").value);
     let gp = parseInt(document.querySelector("input[name=gp]").value);
     let basic = parseInt(document.querySelector("input[name=basic]").value);
-    let qs = parseInt(document.querySelector("input[name=qs]").value);
+    let qs = parseFloat(document.querySelector("input[name=qs]").value);
     let currentDa = parseInt(document.querySelector("input[name=currentDa]").value);
     let da = (basic * currentDa) / 100;
     let Tot = basic + da;
@@ -32,6 +32,7 @@ function calculations() {
     const dob = document.querySelector("input[name=dob]").value;
     const doa = document.querySelector("input[name=doa]").value;
     const dor = document.querySelector("input[name=dor]").value;
+    const gis = parseFloat(document.querySelector("input[name=gis]").value);
     const dobBenificairy = document.querySelector("input[name=benificiaryDob]").value;
 
     if ((apl + hapl) > 300) {
@@ -272,6 +273,11 @@ function calculations() {
          b7.appendChild(box6);*/
 
     }
+    document.write("<br />");
+    document.write("<br />");
+    //gis 
+    document.write("G.I.S. : " + gis);
+
     document.write("<br />");
     document.write("<br />");
     //leave salary
