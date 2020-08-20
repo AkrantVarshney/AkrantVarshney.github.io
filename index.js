@@ -456,4 +456,5 @@ function calculations() {
     let body2 = document.getElementsByTagName("body")[0];
     body2.appendChild(button);
     button.addEventListener("click", function() { window.print(); });
+
 }
