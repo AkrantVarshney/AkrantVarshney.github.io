@@ -32,7 +32,7 @@ function calculations() {
     const dob = document.querySelector("input[name=dob]").value;
     const doa = document.querySelector("input[name=doa]").value;
     const dor = document.querySelector("input[name=dor]").value;
-    const gis = parseFloat(document.querySelector("input[name=gis]").value);
+    let gis = parseFloat(document.querySelector("input[name=gis]").value);
     const dobBenificairy = document.querySelector("input[name=benificiaryDob]").value;
 
     if ((apl + hapl) > 300) {
