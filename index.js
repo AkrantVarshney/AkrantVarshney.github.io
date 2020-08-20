@@ -276,7 +276,7 @@ function calculations() {
     document.write("<br />");
     document.write("<br />");
     //gis 
-
+    document.write("G.I.S. : " + gis);
 
     document.write("<br />");
     document.write("<br />");
