@@ -55,7 +55,7 @@ function calculations() {
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
     document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
-    document.write('&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;');
+
     document.write("Designation : " + desig);
     /*let boxDesig = document.createElement("input");
     boxDesig.type = "text";
