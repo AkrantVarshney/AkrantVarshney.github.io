@@ -29,7 +29,7 @@ function calculations() {
     let BankAccount = document.querySelector("input[name=bankAccount]").value;
     let fma = document.querySelector("select[name=fma]").value;
     let ifsc = document.querySelector("input[name=ifscCode]").value;
-    const dob = document.querySelector("input[name=dob]").value;
+    let dob = document.querySelector("input[name=dob]").value;
     const doa = document.querySelector("input[name=doa]").value;
     const dor = document.querySelector("input[name=dor]").value;
     const dobBenificairy = document.querySelector("input[name=benificiaryDob]").value;
